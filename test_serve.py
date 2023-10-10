@@ -15,8 +15,9 @@ data = {
         ]
     ]
 }
-
+print(1)
 response = requests.post(url, headers=headers, data=json.dumps(data))
+print(2)
 response_json = response.json()
-
+print(3)
 print(response_json)
