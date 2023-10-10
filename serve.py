@@ -50,4 +50,5 @@ if __name__ == '__main__':
     initialize_generator(
         '/cpfs01/shared/public/public_hdd/llmeval/model_weights/llama2/model_weights/chat/llama-2-7b-chat/',
         '/cpfs01/shared/public/public_hdd/llmeval/model_weights/llama2/model_weights/chat/tokenizer.model')
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=13121)
